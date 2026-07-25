@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {  
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  margin: 0;
+}
+
+
+header{
+    background-color: rgb(142, 121, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    
+    flex-grow: 1;
+}
+
+.logo{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 0 0 30px;
+}
+
+
+.container{
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    margin: 0 10px 0 0;
+}
+
+.btn1, .btn2, .btn3{
+    background-color: white;
+    display: flex;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+
+.box{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.blue {
+    background-color: rgb(13, 17, 233);
+    /* width: 100px;
+    height: 100px; */
+}
+
+.relative{
+    position: relative;
+    top: -20px;
+    right: 70px;
+}
+
+main{
+    flex-grow: 10;
+}
+
+
+
+
+.card{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+    margin-top: 30px;
+}
+
+.foto{
+
+}
+
+
+.box2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.blue2{
+    background-color: blue;
+}
+
+.relative2{
+    position: relative;
+    top: -25px;
+    right: -5px;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(142, 121, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-grow: 1;
+}
